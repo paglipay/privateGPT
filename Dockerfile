@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /usr/src/app
 
-CMD [ "python", "./ingest.py" ]
+CMD [ "python", "./privateGPT.py" ]
